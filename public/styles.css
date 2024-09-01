@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.form{
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    width: 20rem;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.form button{
+    width: 7rem;
+    margin: 0 auto;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+/* .downloadmain{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+} */
+.make-grid{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    width: 20rem;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.make-grid button{
+    width: 6rem;
+    margin: 0 auto;
+}
